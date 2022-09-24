@@ -1,0 +1,218 @@
+{
+  "pt": {
+    "avatar": "./assets/images/Avatar.png",
+    "name": "Anderson Martins",
+    "position": "Frontend Software Developer",
+    "socialmedia": [
+      {
+        "name": "LinkedinLogo",
+        "url": "https://www.linkedin.com/in/atmmoreira/"
+      },
+      {
+        "name": "TelegramLogo",
+        "url": "https://t.me/atmmoreira"
+      },
+      {
+        "name": "WhatsappLogo",
+        "url": "https://api.whatsapp.com/send?phone=5521992890362"
+      },
+      {
+        "name": "EnvelopeSimple",
+        "url": "atmmoreira.rj@gmail.com"
+      },
+      {
+        "name": "GithubLogo",
+        "url": "https://github.com/atmmoreira"
+      }
+    ],
+    "education": {
+      "title": "Educação",
+      "description": [
+      "Universidade Estácio de Sá",
+      "Tecnologia em Sistemas para Internet",
+      "2008 - 2011"
+    ]
+  },
+    "languages": {
+      "title": "Idiomas",
+      "description": [
+        {
+          "name": "Português",
+          "level": "Nativo"
+        },
+        {
+          "name": "Inglês",
+          "level": "Nível C1, Avançado."
+        },
+        {
+          "name": "Espanhol",
+          "level": "Nível B2, Intermediário."
+        }
+      ]
+    },
+    "profile": {
+      "title": "Perfil",
+      "icon": "http://127.0.0.1:5173/assets/img/icone.jpg",
+      "descrition": "UI Designer desde 2000 trabalhando com photoshop, ilustrador, figma, html5, css3, sass, javascript, jquery e bootstrap. Construção de projetos com wordpress e woocommerce. Gerenciamento de código com bitbucket, git e github. Adepto do uso de metodologias ágeis como scrum e kanban. Frontend Web UI Developer, desde 2018 desenvolvendo soluções utilizando tecnologias como javascript, web components, react.js, styled-components, css-in-js, sass, webpack, etc. O aprendizado contínuo nessas tecnologias me aproximará do meu objetivo, que é me tornar um Javascript Specialist Developer com javascript, typescript, react.js e node.js."
+    },
+    "experiences": [
+      {
+        "company": "Globant",
+        "position": "Frontend Web UI Developer - Rio de Janeiro, Brasil.",
+        "years": "02/2022 - 08/2022",
+        "context": {
+          "title": "Contexto",
+          "description": "Alocado no Jornal Estadão de São Paulo trabalhando na construção e manutenção de portais notícias."
+        },
+        "responsabilities": [
+          "Manutenção e desenvolvimento em portais de notícias com php, html5, css3, sass, javascript, web components, react.js, vue.js, tailwindcss e bootstrap.",
+          "Utilização do Zephr para acesso/automatização de conteúdos e fluxos.",
+          "Uso do Optimize360 para Testes A/B.",
+          "Gerenciamento de notícias com wordpress.",
+          "Uso de ferramentas no dia-a-dia como storybook, jira, clickup, git, github e bitbucket."
+        ],
+        "technologies": "html5, css3, sass, tailwindcss, bootstrap, javascript, storybook, react.js, vue.js, git, github, bitbucket, jira, scrum, optimize360, web components, php, rest api e node."
+      },
+      {
+        "company": "Thera Solutions - Rio de Janeiro, Brasil.",
+        "position": "Frontend Developer",
+        "years": "01/2021 - 01/2022",
+        "context": {
+          "title": "Contexto",
+          "description": "Alocado na emissora TV GLOBO, trabalhando na construção e manutenção de portais e dashboards de seus produtos internos."
+        },
+        "responsabilities": [
+          "Manutenção e desenvolvimento com html5, css3 e javascript.",
+          "Consumo de webservices restfull com vue.js, vuex e vuetify.",
+          "Uso de Microsoft Power Automate para automatização de envio de emails.",
+          "Utilização do Microsoft Sharepoint na criação de listas, tabelas e bibliotecas de documentos.",
+          "Versionamento de códigos com git, github, gitlab e azure devops."
+        ],
+        "technologies": "html5, css3, sass, javascript, vue.js, vuex, vuetify, git, gitlab, azure devops, scrum, microsoft power automate, microsoft sharepoint, rest api e node."
+      },
+      {
+        "company": "Tiplan - Rio de Janeiro, Brasil.",
+        "position": "Frontend Developer",
+        "years": "06/2019 - 10/2020",
+        "context": {
+          "title": "Contexto",
+          "description": "Empresa especializada em desenvolvimento de soluções de gestão tributária para profissionais liberais."
+        },
+        "responsabilities": [
+          "Criação de layouts e wireframes com figma e illustrator.",
+          "Gerenciamento e versionamento de códigos utilizando azure devops.",
+          "Manutenção e desenvolvimento do frontend de sistemas web criados em ASP.NET com html5, css3, sass, javascript, react.js, reactstrap, styled-components e css-in-js."
+        ],
+        "technologies": "html5, css3, sass, javascript, react.js, bootstrap, azure devops e scrum."
+      },
+      {
+        "company": "Atsnet Solutions - Rio de Janeiro, Brasil.",
+        "position": "Frontend Developer",
+        "years": "09/2018 - 04/2019",
+        "context": {
+          "title": "Contexto",
+          "description": "Empresa especializada em consultoria, gerenciamento e desenvolvimento de projetos e softwares."
+        },
+        "responsabilities": [
+          "Criação de layouts com figma e illustrator. Manutenção em websites com wordpress.",
+          "Gerenciamento e versionamento de códigos utilizando azure devops.",
+          "Manutenção em sistemas criados em ASP.NET com html5, css3, javascript, react.js.",
+          "Utilização da biblioteca leaflet.js para georreferenciamento."
+        ],
+        "technologies": "html5, css3, sass, javascript, jquery, react.js, bootstrap, azure devops, leaflet.js e scrum."
+      },
+      {
+        "company": "Mediatrust - Lisboa, Portugal.",
+        "position": "Frontend Developer",
+        "years": "12/2017 - 08/2018",
+        "context": {
+          "title": "Contexto",
+          "description": "Agência focada em consultoria de comunicação, marketing e relações públicas."
+        },
+        "responsabilities": [
+          "Criação de layouts e wireframes com figma e illustrator.",
+          "Gerenciamento e versionamento de códigos utilizando git e github.",
+          "Implementação, manutenção e desenvolvimento de websites com wordpress.",
+          "Desenvolvimento usando php, html5, css3, sass, bootstrap, javascript e jquery."
+        ],
+        "technologies": "html5, css3, sass, javascript, jquery, bootstrap, php e wordpress."
+      },
+      {
+        "company": "LDC comex - Rio de Janeiro, Brasil.",
+        "position": "Frontend Developer",
+        "years": "11/2015 - 11/2017",
+        "context": {
+          "title": "Contexto",
+          "description": "Empresa que atua com mercado aduaneiro e tributário."
+        },
+        "responsabilities": [
+          "Implementação, manutenção e desenvolvimento do frontend de sistemas criados em ASP.NET com html5, css3, sass, javascript e bootstrap.",
+          "Implementação, manutenção e desenvolvimento de websites com wordpress."
+        ],
+        "technologies": "html5, css3, sass, javascript, jquery, bootstrap, php e wordpress."
+      }
+    ],
+    "abilities": {
+      "skills": [
+        {
+          "time": "Aprendendo",
+          "description": "typescript, redux, next.js, nest.js, jest, unit tests, tdd, oop, design patterns, micro frontends, graphql, gatsby, clean code e clean architecture."
+        },
+        {
+          "time": "1-3 anos",
+          "description": "react.js, node.js, mongodb, axios, fetch, web components, leaflet.js e tailwindcss."
+        },
+        {
+          "time": "5 anos",
+          "description": "javascript, jquery, webpack, sass, figma, mysql, git, github, bitbucket e php."
+        },
+        {
+          "time": "10 anos",
+          "description": "html5, css3, adobe photoshop, wordpress, bootstrap, zurb foundation e materialui."
+        },
+        {
+          "time": "+15 anos",
+          "description": "adobe illustrator e ui experience."
+        }
+      ]
+    },
+    "courses": {
+      "title": "Cursos Extracurriculares",
+      "list": [
+        {
+          "title": "Docker: Essencial para desenvolvedores",
+          "url": "https://bit.ly/2JUzZ6i"
+        },
+        {
+          "title": "Docker para desenvolvedores Javascript/Node.js",
+          "url": "https://bit.ly/3mb8SRm"
+        },
+        {
+          "title": "Developer Web Frontend",
+          "url": "https://bit.ly/3qLNy8L"
+        },
+        {
+          "title": "HTML Web Developer",
+          "url": "https://bit.ly/33ZIjbG"
+        },
+        {
+          "title": "PHP Developer",
+          "url": "http://bit.ly/3muyIzZ"
+        },
+        {
+          "title": "Node.js Web Developer",
+          "url": "http://bit.ly/2WyI4jF"
+        }
+      ]
+    },
+    "domains": [
+      "Implementação, manutenção, desenvolvimento websites corporativos e institucionais com wordpress.",
+      "Habilidade de comunicação sobre detalhes técnicos.",
+      "Trabalho independente e/ou próximo da squad para desenvolvimento da mesma.",
+      "Participação de planejamento de aplicações web do início até deploy em produção.",
+      "Criação de mockups, layouts e wireframes com figma e illustrator.",
+      "Desenvolvimento de aplicações web com html5, css3, sass, javascript, jquery, php e bootstrap.",
+      "Sólida experiência como UI Designer."
+    ]
+  }
+}

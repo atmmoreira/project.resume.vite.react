@@ -1,0 +1,16 @@
+/* Links */
+.navbar a.active {
+  color: var(--red);
+}
+
+.navbar a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-right: 10px;
+  color: var(--blue);
+}
+
+.navbar a:hover {
+  color: var(--red);
+}

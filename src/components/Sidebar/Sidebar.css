@@ -1,0 +1,60 @@
+.sidebar {
+  background-color: var(--blue);
+  color: var(--white);
+  padding-top: 15px;
+}
+
+.sidebar h2 {
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.sidebar small {
+  font-style: italic;
+}
+
+.sidebar .btn-curriculum {
+  background-color: var(--white);
+  color: var(--red);
+  font-size: large;
+  text-transform: uppercase;
+  font-weight: 500;
+  border: 1px solid var(--white) !important;
+}
+
+.sidebar svg {
+  margin-right: 5px;
+  font-size: 22px;
+}
+
+.sidebar .social {
+  border-top: 1px solid var(--rgba);
+  border-bottom: 1px solid var(--rgba);
+  padding-block: 15px;
+}
+
+.sidebar .social a {
+  padding: 8px 6px;
+  width: 40px;
+  height: 40px;
+}
+
+.sidebar .social a svg {
+  position: relative;
+  left: 10%;
+}
+
+.sidebar .languages-education {
+  font-size: 18px;
+}
+
+.sidebar .languages-education svg {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.sidebar .education,
+.sidebar .languages {
+  border-bottom: 1px solid var(--rgba);
+}

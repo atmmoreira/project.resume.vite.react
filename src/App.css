@@ -1,41 +1,30 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+:root {
+  --white: #ffffff;
+  --red: #c0392b;
+  --blue: #227093;
+  --gray: #485460;
+  --graylight: #f2f2f2;
+  --grayShadow: #bdc3c7;
+  --boxShadow: 0px 0px 10px var(--grayShadow);
+  --fontSizeTitle: 24px;
+  --rgba: rgba(242, 242, 242, 0.5);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Override bootstrap classes */
+body {
+  font-family: 'Barlow Condensed', sans-serif !important;
+  background-color: var(--graylight) !important;
+  color: var(--gray) !important;
+  font-size: 18px !important;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.curriculum {
+  background-color: var(--white);
+  box-shadow: var(--boxShadow);
+  margin-bottom: 20px;
 }
