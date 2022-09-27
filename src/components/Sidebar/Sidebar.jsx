@@ -1,5 +1,7 @@
 import React from 'react';
 import SocialMedia from '../SocialMedia/SocialMedia';
+import * as Icons from 'phosphor-react';
+
 import './Sidebar.css';
 
 function Sidebar({ resume }) {
@@ -17,7 +19,7 @@ function Sidebar({ resume }) {
               href='#'
               className='btn btn-curriculum mt-3 btn-sm d-flex align-items-center justify-content-center'
             >
-              iconPdf
+              <Icons.FilePdf />
               <span className='mx-1'> Download pdf</span>
             </a>
           </div>
@@ -30,7 +32,7 @@ function Sidebar({ resume }) {
         <div className='row languages-education'>
           <div className='col-sm-6 col-lg-12 education'>
             <div className='d-flex align-items-center mb-2'>
-              iconEducation
+              <Icons.Student />
               <h2>{resume.pt?.education.title}</h2>
             </div>
             <ul>
@@ -41,7 +43,7 @@ function Sidebar({ resume }) {
           </div>
           <div className='col-sm-6 col-lg-12 languages'>
             <div className='d-flex align-items-center mb-2'>
-              iconLanguage
+              <Icons.Translate />
               <h2>{resume.pt?.languages.title}</h2>
             </div>
             <ul>

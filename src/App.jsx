@@ -1,31 +1,21 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 
-const url = './json/resume.json';
-
 import Header from './components/Header/Header';
-import MainResume from './components/MainResume/MainResume';
-import Sidebar from './components/Sidebar/Sidebar';
+import Home from './pages/Home/Home';
+import HireMe from './pages/HireMe/HireMe';
 
 function App() {
-  const [resumes, setResumes] = useState([]);
-
-  useEffect(() => {
-    const productsApi = async () => {
-      const response = await fetch(url);
-      const data = await response.json();
-      setResumes(data);
-    };
-    productsApi();
-  }, []);
-
   return (
     <div className='container'>
       <Header />
       <div className='curriculum'>
         <div className='row flex-lg-row-reverse flex-sm-row'>
-          <Sidebar resume={resumes} />
-          <MainResume />
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='hireme' element={<HireMe />} />
+          </Routes>
         </div>
       </div>
     </div>

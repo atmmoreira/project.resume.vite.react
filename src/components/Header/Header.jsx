@@ -1,15 +1,15 @@
 import React from 'react';
 import './Header.css';
 
+import { NavLink } from 'react-router-dom';
+
 function Header() {
   return (
     <nav className='navbar'>
       <div className='container-fluid'>
         <div className='d-flex'>
-          <a href='/' className='active'>
-            Home
-          </a>
-          {/* <a href="/hired">Orçamentos</a> */}
+          <NavLink to='/' >Home</NavLink>
+          <NavLink to='/hireme'>Orçamentos</NavLink>
         </div>
         <div>
           <a href='#'>

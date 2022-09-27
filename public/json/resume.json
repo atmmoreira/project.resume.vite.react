@@ -18,7 +18,7 @@
       },
       {
         "name": "EnvelopeSimple",
-        "url": "atmmoreira.rj@gmail.com"
+        "url": "mailto:atmmoreira.rj@gmail.com"
       },
       {
         "name": "GithubLogo",
@@ -26,6 +26,7 @@
       }
     ],
     "education": {
+      "icon": "Student",
       "title": "Educação",
       "description": [
       "Universidade Estácio de Sá",
