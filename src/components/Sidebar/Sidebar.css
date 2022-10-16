@@ -58,3 +58,7 @@
 .sidebar .languages {
   border-bottom: 1px solid var(--rgba);
 }
+
+.education h4 {
+  display: inline;
+}

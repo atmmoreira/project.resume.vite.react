@@ -29,11 +29,18 @@
       "icon": "Student",
       "title": "Educação",
       "description": [
-      "Universidade Estácio de Sá",
-      "Tecnologia em Sistemas para Internet",
-      "2008 - 2011"
-    ]
-  },
+        {
+          "university": "Pontifícia Universidade Católica de Minas Gerais",
+          "course": "Web Fullstack Software Engineer",
+          "year": "2022-2023"
+        },
+        {
+          "university": "Universidade Estácio de Sá",
+          "course": "Tecnologia em Sistemas para Internet",
+          "year": "2008-2011"
+        }
+      ]
+    },
     "languages": {
       "title": "Idiomas",
       "description": [
@@ -53,8 +60,11 @@
     },
     "profile": {
       "title": "Perfil",
-      "icon": "http://127.0.0.1:5173/assets/img/icone.jpg",
-      "descrition": "UI Designer desde 2000 trabalhando com photoshop, ilustrador, figma, html5, css3, sass, javascript, jquery e bootstrap. Construção de projetos com wordpress e woocommerce. Gerenciamento de código com bitbucket, git e github. Adepto do uso de metodologias ágeis como scrum e kanban. Frontend Web UI Developer, desde 2018 desenvolvendo soluções utilizando tecnologias como javascript, web components, react.js, styled-components, css-in-js, sass, webpack, etc. O aprendizado contínuo nessas tecnologias me aproximará do meu objetivo, que é me tornar um Javascript Specialist Developer com javascript, typescript, react.js e node.js."
+      "description": [
+        "UI Specialist Designer trabalhando com photoshop, ilustrador, figma, html5, css3, sass, javascript, jquery e bootstrap. Hands-on desde 2013 construindo projetos com wordpress. Gerenciamento de código com bitbucket, git e github. Adepto do uso de metodologias ágeis como scrum e kanban.",
+        "Frontend Software Developer, desde 2019 desenvolvendo soluções utilizando tecnologias como javascript, web components, react.js, styled-components e css-in-js. Meu objetivo é me tornar um profissional Fullstack Software Engineer com javascript, typescript, react.js,  node.js e php.",
+        "Venho também aprendendo sobre typescript, laravel, redux, react testing library, next.js, nest.js, jest, unit tests, tdd, programação orientada à objetos, design patterns, micro frontends, graphql, jamstack, clean code e clean architecture."
+      ]
     },
     "experiences": [
       {

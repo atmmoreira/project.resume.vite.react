@@ -1,7 +1,11 @@
 import React from 'react';
+// Components
 import SocialMedia from '../SocialMedia/SocialMedia';
+import Education from '../Education/Education';
+import Language from '../Language/Language';
+// Icons
 import * as Icons from 'phosphor-react';
-
+// Styles
 import './Sidebar.css';
 
 function Sidebar({ resume }) {
@@ -31,28 +35,10 @@ function Sidebar({ resume }) {
         </div>
         <div className='row languages-education'>
           <div className='col-sm-6 col-lg-12 education'>
-            <div className='d-flex align-items-center mb-2'>
-              <Icons.Student />
-              <h2>{resume.pt?.education.title}</h2>
-            </div>
-            <ul>
-              {resume.pt?.education.description.map((iten, index) => (
-                <li key={index}>{iten}</li>
-              ))}
-            </ul>
+            <Education resume={resume} />
           </div>
           <div className='col-sm-6 col-lg-12 languages'>
-            <div className='d-flex align-items-center mb-2'>
-              <Icons.Translate />
-              <h2>{resume.pt?.languages.title}</h2>
-            </div>
-            <ul>
-              {resume.pt?.languages.description.map((iten, index) => (
-                <li key={index}>
-                  {iten.name}: {iten.level}
-                </li>
-              ))}
-            </ul>
+            <Language resume={resume} />
           </div>
         </div>
       </div>

@@ -1,37 +1,14 @@
 import React from 'react';
-
+// Components
+import Profile from '../Profile/Profile'
+// Styles
 import './MainResume.css';
 
-function MainResume() {
+function MainResume({resume}) {
   return (
     <div className='main col-md-9 col-sm-12 p-4'>
-      <section className='profile'>
-        <div className='icon'>iconProfile</div>
-        <div>
-          <h2>Perfil</h2>
-          <div className='description'>
-            <p>
-              <b>UI Designer</b> desde 2000 trabalhando com photoshop,
-              ilustrador, figma, html5, css3, sass, javascript, jquery e
-              bootstrap. Construção de projetos nacionais e internacionais com
-              wordpress e woocommerce. Versionamento de código com bitbucket,
-              git e github. Praticante de metodologias ágeis como scrum e
-              kanban.{' '}
-            </p>
 
-            <p>
-              <b>Frontend Web UI Developer</b>, desde 2018 desenvolvendo
-              soluções utilizando tecnologias como javascript, web components,
-              react.js, styled-components, css-in-js, sass, webpack, etc. O
-              aprendizado contínuo nessas tecnologias me aproximará do meu
-              objetivo, que é me tornar um{' '}
-              <b>Javascript Specialist Developer</b> com javascript, typescript,
-              react.js e node.js.
-            </p>
-          </div>
-        </div>
-      </section>
-
+      <Profile resume={resume} />
       <section className='experience'>
         <div className='icon'>iconCertificated</div>
         <div className='w-100'>

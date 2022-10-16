@@ -20,7 +20,7 @@ function Home() {
   return (
     <>
       <Sidebar resume={resumes} />
-      <MainResume />
+      <MainResume resume={resumes} />
     </>
   );
 }
