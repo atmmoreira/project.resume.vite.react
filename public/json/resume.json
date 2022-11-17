@@ -5,23 +5,28 @@
     "position": "Frontend Software Developer",
     "socialmedia": [
       {
-        "name": "LinkedinLogo",
+        "name": "Linkedin",
+        "icon": "LinkedinLogo",
         "url": "https://www.linkedin.com/in/atmmoreira/"
       },
       {
-        "name": "TelegramLogo",
+        "name": "Telegram",
+        "icon": "TelegramLogo",
         "url": "https://t.me/atmmoreira"
       },
       {
-        "name": "WhatsappLogo",
+        "name": "Whatsapp",
+        "icon": "WhatsappLogo",
         "url": "https://api.whatsapp.com/send?phone=5521992890362"
       },
       {
-        "name": "EnvelopeSimple",
+        "name": "Email",
+        "icon": "EnvelopeSimple",
         "url": "mailto:atmmoreira.rj@gmail.com"
       },
       {
-        "name": "GithubLogo",
+        "name": "Github",
+        "icon": "GithubLogo",
         "url": "https://github.com/atmmoreira"
       }
     ],
@@ -62,105 +67,130 @@
       "title": "Perfil",
       "description": [
         "UI Specialist Designer trabalhando com photoshop, ilustrador, figma, html5, css3, sass, javascript, jquery e bootstrap. Hands-on desde 2013 construindo projetos com wordpress. Gerenciamento de código com bitbucket, git e github. Adepto do uso de metodologias ágeis como scrum e kanban.",
-        "Frontend Software Developer, desde 2019 desenvolvendo soluções utilizando tecnologias como javascript, web components, react.js, styled-components e css-in-js. Meu objetivo é me tornar um profissional Fullstack Software Engineer com javascript, typescript, react.js,  node.js e php.",
-        "Venho também aprendendo sobre typescript, laravel, redux, react testing library, next.js, nest.js, jest, unit tests, tdd, programação orientada à objetos, design patterns, micro frontends, graphql, jamstack, clean code e clean architecture."
+        "Frontend Software Developer, desde 2019 desenvolvendo soluções utilizando tecnologias como javascript, web components, react.js, styled-components e css-in-js. Meu objetivo é me tornar um profissional Fullstack Software Engineer com javascript, typescript, react.js, node.js, php, wordpress, laravel e salesforce.",
+        "Venho também aprendendo sobre typescript, laravel, salesforce, redux, react testing library, next.js, nest.js, jest, unit tests, tdd, programação orientada à objetos, design patterns, micro frontends, graphql, jamstack, clean code e clean architecture."
       ]
     },
     "experiences": [
       {
+        "identifier": "bairesdev",
+        "company": "BairesDev",
+        "position": "Frontend Software Developer - Rio de Janeiro, Brasil.",
+        "years": "09/2022 - presente",
+        "context": {
+          "title": "Contexto",
+          "description": "Atuando com a empresa Dealer Inspire (DI) localizada em Naperville Illinois, é um líder na indústria automotiva por meio de nossa cultura inovadora, serviço lendário e site, tecnologia e soluções de marketing incríveis."
+        },
+        "responsabilities": [
+          "Gerenciamento de sites com php e wordpress.",
+          "Usando html5, css3, react e javascript para criar novas funcionalidades e refatorar ferramentas existentes.",
+          "Construindo e testando aplicativos da web mobile-first com sass e bootstrap.",
+          "Manutenção e construção de temas e plugins wordpress para suportar plataformas novas ou existentes."
+        ],
+        "technologies": {
+          "title": "Tecnologias",
+          "description": "html5, css3, sass, bootstrap, javascript, git, bitbucket, jira, php e wordpress."
+        }
+      },
+      {
+        "identifier": "globant",
         "company": "Globant",
-        "position": "Frontend Web UI Developer - Rio de Janeiro, Brasil.",
+        "position": "Frontend Software Developer - Rio de Janeiro, Brasil.",
         "years": "02/2022 - 08/2022",
         "context": {
           "title": "Contexto",
-          "description": "Alocado no Jornal Estadão de São Paulo trabalhando na construção e manutenção de portais notícias."
+          "description": "Alocado no Jornal Estadão de São Paulo trabalhando na manutenção e desenvolvimento do portal de notícias."
         },
         "responsabilities": [
-          "Manutenção e desenvolvimento em portais de notícias com php, html5, css3, sass, javascript, web components, react.js, vue.js, tailwindcss e bootstrap.",
-          "Utilização do Zephr para acesso/automatização de conteúdos e fluxos.",
-          "Uso do Optimize360 para Testes A/B.",
-          "Gerenciamento de notícias com wordpress.",
-          "Uso de ferramentas no dia-a-dia como storybook, jira, clickup, git, github e bitbucket."
+          "Usando php, html5, css3, sass, javascript, componentes web, react.js, tailwindcss e bootstrap.",
+          "Usando Zephr para acessar/automatizar conteúdo e fluxos",
+          "Usando o Optimize360 para testes A/B.",
+          "Gerenciamento de sites com wordpress."
         ],
-        "technologies": "html5, css3, sass, tailwindcss, bootstrap, javascript, storybook, react.js, vue.js, git, github, bitbucket, jira, scrum, optimize360, web components, php, rest api e node."
+        "technologies": {
+          "title": "Tecnologias",
+          "description": "html5, css3, sass, tailwindcss, bootstrap, javascript, react.js, git, bitbucket, php, webservice restfull e node."
+        }
       },
       {
-        "company": "Thera Solutions - Rio de Janeiro, Brasil.",
-        "position": "Frontend Developer",
+        "identifier": "thera_solutions",
+        "company": "Thera Solutions",
+        "position": "Frontend Software Developer - Rio de Janeiro, Brasil.",
         "years": "01/2021 - 01/2022",
         "context": {
           "title": "Contexto",
-          "description": "Alocado na emissora TV GLOBO, trabalhando na construção e manutenção de portais e dashboards de seus produtos internos."
+          "description": "Alocado na TV Globo trabalhando na construção e desenvolvimento de portais e dashboards para seu produto interno"
         },
         "responsabilities": [
-          "Manutenção e desenvolvimento com html5, css3 e javascript.",
+          "Manutenção e desenvolvimento com html5, css3, sass, javascript e bootstrap.",
           "Consumo de webservices restfull com vue.js, vuex e vuetify.",
-          "Uso de Microsoft Power Automate para automatização de envio de emails.",
-          "Utilização do Microsoft Sharepoint na criação de listas, tabelas e bibliotecas de documentos.",
-          "Versionamento de códigos com git, github, gitlab e azure devops."
+          "Uso do Microsoft Power Automate e Sharepoint para automatizar tarefas e fluxos.",
+          "Versão de código com git, github e azure devops."
         ],
-        "technologies": "html5, css3, sass, javascript, vue.js, vuex, vuetify, git, gitlab, azure devops, scrum, microsoft power automate, microsoft sharepoint, rest api e node."
+        "technologies": {
+          "title": "Tecnologias",
+          "description": "html5, css3, sass, javascript, vue.js, vuex, vuetify, git, github, webservice restfull e node."
+        }
       },
       {
-        "company": "Tiplan - Rio de Janeiro, Brasil.",
-        "position": "Frontend Developer",
+        "identifier": "tiplan",
+        "company": "Tiplan",
+        "position": "Frontend Software Developer - Rio de Janeiro, Brasil.",
         "years": "06/2019 - 10/2020",
         "context": {
           "title": "Contexto",
-          "description": "Empresa especializada em desenvolvimento de soluções de gestão tributária para profissionais liberais."
+          "description": "Empresa especializada no desenvolvimento de soluções de gestão tributária para profissionais."
         },
         "responsabilities": [
-          "Criação de layouts e wireframes com figma e illustrator.",
-          "Gerenciamento e versionamento de códigos utilizando azure devops.",
-          "Manutenção e desenvolvimento do frontend de sistemas web criados em ASP.NET com html5, css3, sass, javascript, react.js, reactstrap, styled-components e css-in-js."
+          "Criação de layouts e wireframes com figma e ilustrador.",
+          "Versão de código com git, github e azure devops.",
+          "Usando html5, css3, sass, javascript, bootstrap, componentes web e css-in-js para criar frontend.",
+          "Versionamento de código com git e github."
         ],
-        "technologies": "html5, css3, sass, javascript, react.js, bootstrap, azure devops e scrum."
+        "technologies": {
+          "title": "Tecnologias",
+          "description": "html5, css3, sass, javascript, web components, css-in-js, bootstrap e wordpress."
+        }
       },
       {
-        "company": "Atsnet Solutions - Rio de Janeiro, Brasil.",
-        "position": "Frontend Developer",
+        "identifier": "atsnet",
+        "company": "ATSNET",
+        "position": "Frontend Software Developer - Rio de Janeiro, Brasil.",
         "years": "09/2018 - 04/2019",
         "context": {
           "title": "Contexto",
-          "description": "Empresa especializada em consultoria, gerenciamento e desenvolvimento de projetos e softwares."
+          "description": "Empresa especializada em consultoria, gestão e desenvolvimento de projetos e software."
         },
         "responsabilities": [
-          "Criação de layouts com figma e illustrator. Manutenção em websites com wordpress.",
-          "Gerenciamento e versionamento de códigos utilizando azure devops.",
-          "Manutenção em sistemas criados em ASP.NET com html5, css3, javascript, react.js.",
+          "Criação de layouts e wireframes com figma e ilustrador.",
+          "Manutenção e desenvolvimento de sites internos com php e wordpress.",
+          "Desenvolvimento frontend de sistemas web com html5, css3, sass, javascript, jquery e bootstrap.",
           "Utilização da biblioteca leaflet.js para georreferenciamento."
         ],
-        "technologies": "html5, css3, sass, javascript, jquery, react.js, bootstrap, azure devops, leaflet.js e scrum."
+        "technologies": {
+          "title": "Tecnologias",
+          "description": "html5, css3, sass, javascript, jquery, bootstrap, wordpress e leaflet.js."
+        }
       },
       {
-        "company": "Mediatrust - Lisboa, Portugal.",
-        "position": "Frontend Developer",
+        "identifier": "mediatrust",
+        "company": "Mediatrust",
+        "position": "Frontend Software Developer - Lisboa, Portugal.",
         "years": "12/2017 - 08/2018",
         "context": {
           "title": "Contexto",
           "description": "Agência focada em consultoria de comunicação, marketing e relações públicas."
         },
         "responsabilities": [
-          "Criação de layouts e wireframes com figma e illustrator.",
-          "Gerenciamento e versionamento de códigos utilizando git e github.",
-          "Implementação, manutenção e desenvolvimento de websites com wordpress.",
-          "Desenvolvimento usando php, html5, css3, sass, bootstrap, javascript e jquery."
+          "Criação de layouts e wireframes com figma e ilustrador.",
+          "Código de gerenciamento e versionamento usando git e github.",
+          "Implementação, manutenção e desenvolvimento de temas para websites com wordpress.",
+          "Desenvolvimento de sites utilizando php, html5, css3, sass, bootstrap, javascript e jquery."
         ],
-        "technologies": "html5, css3, sass, javascript, jquery, bootstrap, php e wordpress."
-      },
-      {
-        "company": "LDC comex - Rio de Janeiro, Brasil.",
-        "position": "Frontend Developer",
-        "years": "11/2015 - 11/2017",
-        "context": {
-          "title": "Contexto",
-          "description": "Empresa que atua com mercado aduaneiro e tributário."
-        },
-        "responsabilities": [
-          "Implementação, manutenção e desenvolvimento do frontend de sistemas criados em ASP.NET com html5, css3, sass, javascript e bootstrap.",
-          "Implementação, manutenção e desenvolvimento de websites com wordpress."
-        ],
-        "technologies": "html5, css3, sass, javascript, jquery, bootstrap, php e wordpress."
+        "technologies": {
+          "title": "Tecnologias",
+          "description": "html5, css3, sass, javascript, jquery, bootstrap, php e wordpress."
+        }
       }
     ],
     "abilities": {

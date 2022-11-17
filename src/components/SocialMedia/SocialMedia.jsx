@@ -5,10 +5,10 @@ function SocialMedia({ resume }) {
   return (
     <>
       {resume.pt?.socialmedia.map((i, id) => {
-        let DisplayIcon = Icons[`${i.name}`];
+        let DisplayIcon = Icons[`${i.icon}`];
 
         return (
-          <li className='mx-1' key={id}>
+          <li className='mx-1' key={id} data-bs-toggle="tooltip" title={i.name}>
             <a
               href={i.url}
               target='_blank'

@@ -9,12 +9,12 @@ function Home() {
   const [resumes, setResumes] = useState([]);
 
   useEffect(() => {
-    const productsApi = async () => {
+    const resumeApi = async () => {
       const response = await fetch(url);
       const data = await response.json();
       setResumes(data);
     };
-    productsApi();
+    resumeApi();
   }, []);
 
   return (
