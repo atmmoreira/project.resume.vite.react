@@ -1,47 +1,15 @@
 import React from 'react';
+import Abilities from '../Abilities/Abilities';
 import Experiences from '../Experiences/Experiences';
-// Components
-import Profile from '../Profile/Profile'
-// Styles
+import Profile from '../Profile/Profile';
 import './MainResume.css';
 
-function MainResume({resume}) {
+function MainResume({ resume }) {
   return (
     <div className='main col-md-9 col-sm-12 p-4'>
-
       <Profile resume={resume} />
       <Experiences resume={resume} />
-
-      <section className='abilities'>
-        <div className='icon'>iconSkills</div>
-        <div>
-          <h2>Habilidades Técnicas</h2>
-          <div className='description'>
-            <ul>
-              <li>
-                <span>15 years:</span> adobe illustrator and ui experience.
-              </li>
-              <li>
-                <span>10 years:</span> html5, css3, adobe photoshop, wordpress,
-                bootstrap, zurb foundation and materialui.
-              </li>
-              <li>
-                <span>5 years:</span> javascript, jquery, webpack, sass, figma,
-                mysql, git, github, bitbucket and php.
-              </li>
-              <li>
-                <span>1-3 years:</span> react.js, node.js, mongodb, axios,
-                fetch, web components, leaflet.js and tailwindcss.
-              </li>
-              <li>
-                <span>Learning:</span> typescript, redux, next.js, nest.js,
-                jest, unit tests, tdd, oop, design patterns, micro frontends,
-                graphql, jamstack, gatsby, clean code and clean architecture.
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
+      <Abilities resume={resume} />
 
       <section className='courses'>
         <div className='icon'>iconMonitor</div>

@@ -68,7 +68,7 @@
       "description": [
         "UI Specialist Designer trabalhando com photoshop, ilustrador, figma, html5, css3, sass, javascript, jquery e bootstrap. Hands-on desde 2013 construindo projetos com wordpress. Gerenciamento de código com bitbucket, git e github. Adepto do uso de metodologias ágeis como scrum e kanban.",
         "Frontend Software Developer, desde 2019 desenvolvendo soluções utilizando tecnologias como javascript, web components, react.js, styled-components e css-in-js. Meu objetivo é me tornar um profissional Fullstack Software Engineer com javascript, typescript, react.js, node.js, php, wordpress, laravel e salesforce.",
-        "Venho também aprendendo sobre typescript, laravel, salesforce, redux, react testing library, next.js, nest.js, jest, unit tests, tdd, programação orientada à objetos, design patterns, micro frontends, graphql, jamstack, clean code e clean architecture."
+        "Venho também aprendendo sobre typescript, laravel, salesforce, redux, react testing library, next.js, nest.js, unit tests, tdd, programação orientada à objetos, design patterns, micro frontends, graphql, jamstack, clean code e clean architecture."
       ]
     },
     "experiences": [
@@ -193,29 +193,31 @@
         }
       }
     ],
-    "abilities": {
-      "skills": [
+    "abilities":{
+      "title": "Habilidades Técnicas",
+      "list": [
         {
-          "time": "Aprendendo",
-          "description": "typescript, redux, next.js, nest.js, jest, unit tests, tdd, oop, design patterns, micro frontends, graphql, gatsby, clean code e clean architecture."
+          "title": "15 anos",
+          "description": "adobe illustrator and ui design experience"
         },
         {
-          "time": "1-3 anos",
-          "description": "react.js, node.js, mongodb, axios, fetch, web components, leaflet.js e tailwindcss."
-        },
-        {
-          "time": "5 anos",
-          "description": "javascript, jquery, webpack, sass, figma, mysql, git, github, bitbucket e php."
-        },
-        {
-          "time": "10 anos",
+          "title": "10 anos",
           "description": "html5, css3, adobe photoshop, wordpress, bootstrap, zurb foundation e materialui."
         },
         {
-          "time": "+15 anos",
-          "description": "adobe illustrator e ui experience."
+          "title": "4 anos",
+          "description": "javascript, jquery, webpack, sass-scss, block-element-modifier (bem), figma, mysql, git, github, bitbucket e php."
+        },
+        {
+          "title": "1-2 anos",
+          "description": "react.js, node.js, mongodb, axios, fetch, styled-components, css-in-js, web components, leaflet.js e tailwindcss."
+        },
+        {
+          "title": "Aprendendo",
+          "description": "typescript, laravel, salesforce, redux, react testing library, next.js, nest.js, unit tests, tdd, object-oriented programming, design patterns, micro frontends, graphql, jamstack, clean code e clean architecture."
         }
       ]
+
     },
     "courses": {
       "title": "Cursos Extracurriculares",

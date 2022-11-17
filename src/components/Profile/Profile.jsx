@@ -1,7 +1,5 @@
 import React from 'react';
-// Icons
 import * as Icons from 'phosphor-react';
-// Styles
 import './Profile.css';
 
 function Profile({ resume }) {

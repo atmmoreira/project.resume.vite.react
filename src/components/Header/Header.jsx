@@ -1,6 +1,5 @@
 import React from 'react';
 import './Header.css';
-
 import { NavLink } from 'react-router-dom';
 
 function Header() {
@@ -10,7 +9,7 @@ function Header() {
         <div className='d-flex'>
           <NavLink to='/' >Home</NavLink>
           <NavLink to='/hireme'>Orçamentos</NavLink>
-          <a href="https://github.com/atmmoreira/project.resume.vite.react" target="_blank" className='btn btn-sm text-bg-warning'>Repository</a>
+          <a href="https://github.com/atmmoreira/project.resume.vite.react" target="_blank" className='btn btn-sm text-bg-warning'>Repositório</a>
         </div>
         <div>
           <a href='#'>

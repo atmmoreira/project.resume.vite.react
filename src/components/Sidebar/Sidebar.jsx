@@ -1,11 +1,8 @@
 import React from 'react';
-// Components
 import SocialMedia from '../SocialMedia/SocialMedia';
 import Education from '../Education/Education';
 import Language from '../Language/Language';
-// Icons
 import * as Icons from 'phosphor-react';
-// Styles
 import './Sidebar.css';
 
 function Sidebar({ resume }) {
