@@ -260,15 +260,33 @@
       ]
     },
     "projects": {
-      "title": "Competência de Domínios",
+      "title": "Projetos Recentes",
       "list": [
-        "Desenvolvimento e integração de temas e plugins customizados no wordpress.",
-        "Capacidade de comunicar detalhes técnicos.",
-        "Trabalhar de forma independente e próxima de outros membros da equipe de desenvolvimento.",
-        "Manutenção, atualização, melhoria e implementação de aplicativos desde o conceito até a implantação.",
-        "Desenho e desenvolvimento de layouts e wireframes para frontend utilizando figma, photoshop e Illustrator.",
-        "Hands-on usando html5, css3, sass, javascript, react.js, jquery, bootstrap, php e wordpress.",
-        "Especialista em UI Designer com foco em aplicações web."
+        {
+          "title": "Agenda de Contatos",
+          "url": "https://atmm-contacts.herokuapp.com/",
+          "description": "Projeto de estudo, sistema de cadastro construído com node com ejs, html5, css3 e bootstrap."
+        },
+        {
+          "title": "All Tracker GPS",
+          "url": "http://www.alltrackergps.com.br/",
+          "description": "Website institucional criado com php, wordpress, html5, css3, javascript e bootstrap."
+        },
+        {
+          "title": "Elétrica Solaris",
+          "url": "http://www.eletricasolaris.com.br/",
+          "description": "Website institucional criado com php, wordpress, html5, css3, javascript e bootstrap."
+        },
+        {
+          "title": "Interoceânica",
+          "url": "http://www.interoceanica.com.br/",
+          "description": "Website institucional criado com php, wordpress, html5, css3, javascript e bootstrap."
+        },
+        {
+          "title": "Ketlog",
+          "url": "http://www.ketlog.com.br/",
+          "description": "Website institucional criado com php, wordpress, html5, css3, javascript e bootstrap."
+        }
       ]
     }
   }

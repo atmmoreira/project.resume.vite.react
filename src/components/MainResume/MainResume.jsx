@@ -4,6 +4,7 @@ import Courses from '../Courses/Courses';
 import Domains from '../Domains/Domains';
 import Experiences from '../Experiences/Experiences';
 import Profile from '../Profile/Profile';
+import Projects from '../Projects/Projects';
 import './MainResume.css';
 
 function MainResume({ resume }) {
@@ -14,6 +15,7 @@ function MainResume({ resume }) {
       <Abilities resume={resume} />
       <Courses resume={resume} />
       <Domains resume={resume} />
+      <Projects resume={resume} />
     </div>
   );
 }
