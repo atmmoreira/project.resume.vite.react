@@ -247,14 +247,17 @@
         }
       ]
     },
-    "domains": [
-      "Implementação, manutenção, desenvolvimento websites corporativos e institucionais com wordpress.",
-      "Habilidade de comunicação sobre detalhes técnicos.",
-      "Trabalho independente e/ou próximo da squad para desenvolvimento da mesma.",
-      "Participação de planejamento de aplicações web do início até deploy em produção.",
-      "Criação de mockups, layouts e wireframes com figma e illustrator.",
-      "Desenvolvimento de aplicações web com html5, css3, sass, javascript, jquery, php e bootstrap.",
-      "Sólida experiência como UI Designer."
-    ]
+    "domains": {
+      "title": "Competência de Domínios",
+      "list": [
+        "Desenvolvimento e integração de temas e plugins customizados no wordpress.",
+        "Capacidade de comunicar detalhes técnicos.",
+        "Trabalhar de forma independente e próxima de outros membros da equipe de desenvolvimento.",
+        "Manutenção, atualização, melhoria e implementação de aplicativos desde o conceito até a implantação.",
+        "Desenho e desenvolvimento de layouts e wireframes para frontend utilizando figma, photoshop e Illustrator.",
+        "Hands-on usando html5, css3, sass, javascript, react.js, jquery, bootstrap, php e wordpress.",
+        "Especialista em UI Designer com foco em aplicações web."
+      ]
+    }
   }
 }
