@@ -193,7 +193,7 @@
         }
       }
     ],
-    "abilities":{
+    "abilities": {
       "title": "Habilidades Técnicas",
       "list": [
         {
@@ -217,34 +217,33 @@
           "description": "typescript, laravel, salesforce, redux, react testing library, next.js, nest.js, unit tests, tdd, object-oriented programming, design patterns, micro frontends, graphql, jamstack, clean code e clean architecture."
         }
       ]
-
     },
     "courses": {
       "title": "Cursos Extracurriculares",
       "list": [
         {
           "title": "Docker: Essencial para desenvolvedores",
-          "url": "https://bit.ly/2JUzZ6i"
+          "url": "../assets/docs/docker-ferramenta-essencial-para-desenvolvedores.pdf"
         },
         {
           "title": "Docker para desenvolvedores Javascript/Node.js",
-          "url": "https://bit.ly/3mb8SRm"
+          "url": "../assets/docs/docker-para-desenvolvedores-javascript-nodejs.pdf"
         },
         {
           "title": "Developer Web Frontend",
-          "url": "https://bit.ly/3qLNy8L"
+          "url": "../assets/docs/formacao-desenvolvedor-web-frontend.pdf"
         },
         {
           "title": "HTML Web Developer",
-          "url": "https://bit.ly/33ZIjbG"
+          "url": "../assets/docs/formacao-html-web-developer.pdf"
         },
         {
           "title": "PHP Developer",
-          "url": "http://bit.ly/3muyIzZ"
+          "url": "../assets/docs/formacao-desenvolvedor-php.pdf"
         },
         {
           "title": "Node.js Web Developer",
-          "url": "http://bit.ly/2WyI4jF"
+          "url": "../assets/docs/formacao-nodejs-web-developer.pdf"
         }
       ]
     },

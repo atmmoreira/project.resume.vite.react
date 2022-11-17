@@ -1,5 +1,6 @@
 import React from 'react';
 import Abilities from '../Abilities/Abilities';
+import Courses from '../Courses/Courses';
 import Experiences from '../Experiences/Experiences';
 import Profile from '../Profile/Profile';
 import './MainResume.css';
@@ -10,71 +11,7 @@ function MainResume({ resume }) {
       <Profile resume={resume} />
       <Experiences resume={resume} />
       <Abilities resume={resume} />
-
-      <section className='courses'>
-        <div className='icon'>iconMonitor</div>
-        <div>
-          <h2>Cursos</h2>
-          <div className='description'>
-            <ul>
-              <li>
-                Docker para desenvolvedores Javascript/Node.js -{' '}
-                <a
-                  href='https://atmm.dev/docs/certificates/udemy/docker-para-desenvolvedores-javascript-nodejs.pdf'
-                  target='_blank'
-                >
-                  Verificar
-                </a>
-              </li>
-              <li>
-                Docker: Essencial para desenvolvedores -{' '}
-                <a
-                  href='https://atmm.dev/docs/certificates/udemy/docker-ferramenta-essencial-para-desenvolvedores.pdf'
-                  target='_blank'
-                >
-                  Verificar
-                </a>
-              </li>
-              <li>
-                Frontend Web Developer -{' '}
-                <a
-                  href='https://atmm.dev/docs/certificates/digital-innovation-one/formacao-desenvolvedor-web-frontend.pdf'
-                  target='_blank'
-                >
-                  Verificar
-                </a>
-              </li>
-              <li>
-                HTML Web Developer -{' '}
-                <a
-                  href='https://atmm.dev/docs/certificates/digital-innovation-one/formacao-html-web-developer.pdf'
-                  target='_blank'
-                >
-                  Verificar
-                </a>
-              </li>
-              <li>
-                Node.js Web Developer -{' '}
-                <a
-                  href='https://atmm.dev/docs/certificates/digital-innovation-one/formacao-nodejs-web-developer.pdf'
-                  target='_blank'
-                >
-                  Verificar
-                </a>
-              </li>
-              <li>
-                PHP Developer -{' '}
-                <a
-                  href='https://atmm.dev/docs/certificates/digital-innovation-one/formacao-desenvolvedor-php.pdf'
-                  target='_blank'
-                >
-                  Verificar
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
+      <Courses resume={resume} />
 
       <section className='compentences'>
         <div className='icon'>iconDomains</div>
