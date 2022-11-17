@@ -258,6 +258,18 @@
         "Hands-on usando html5, css3, sass, javascript, react.js, jquery, bootstrap, php e wordpress.",
         "Especialista em UI Designer com foco em aplicações web."
       ]
+    },
+    "projects": {
+      "title": "Competência de Domínios",
+      "list": [
+        "Desenvolvimento e integração de temas e plugins customizados no wordpress.",
+        "Capacidade de comunicar detalhes técnicos.",
+        "Trabalhar de forma independente e próxima de outros membros da equipe de desenvolvimento.",
+        "Manutenção, atualização, melhoria e implementação de aplicativos desde o conceito até a implantação.",
+        "Desenho e desenvolvimento de layouts e wireframes para frontend utilizando figma, photoshop e Illustrator.",
+        "Hands-on usando html5, css3, sass, javascript, react.js, jquery, bootstrap, php e wordpress.",
+        "Especialista em UI Designer com foco em aplicações web."
+      ]
     }
   }
 }
